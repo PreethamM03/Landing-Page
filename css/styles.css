@@ -95,22 +95,36 @@ html{
 }
 .quote-part {
     color: #1F2937;
-    background-color: #E5E7EB;
     font-size: 36px;
-    padding-top: 80px;
-    padding-bottom: 70px;
+
     align-items: center;
+    height: 25%;
+    position: relative;
 
 }
-.quote {
+.quote-part img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.quote-part .text {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    background: #E5E7EB;    
+    mix-blend-mode: lighten;
+    position: absolute;
+    inset: 0;
+}
+.quote{
     padding: 0 170px;
+
 }
-.quote-name {
-    padding-left: 750px;
-    margin-top: -50px;
+.quote-name{
+    padding-left: 850px;
 }
+
+
 .copyright {
     display: flex;
     justify-content: center;
